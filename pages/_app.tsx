@@ -16,7 +16,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>{createTitle(pageProps.pageName)}</title>{" "}
-        <link rel="icon" href="/icons/favicons/default-favicon.ico" />
+        <link rel="icon" href="/icons/favicons/bread.ico" />
       </Head>
 
       <SWRConfig
