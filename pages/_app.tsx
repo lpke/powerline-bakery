@@ -1,17 +1,17 @@
-import { React, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import "styles/global.scss";
 import { ViewportProvider } from "lib/hooks/use-viewport";
-import { SWRConfig } from 'swr'; // SWR global config
+import { SWRConfig } from "swr"; // SWR global config
 import fetchJson from "lib/fetchJson"; // custom fetch wrapper
+import { AppProps } from "next/dist/next-server/lib/router/router";
 
-
-const createTitle = (pageName) => {
-  const websiteName = "LPDev";
+const createTitle = (pageName: string) => {
+  const websiteName = "Powerline Bakery";
   return pageName ? `${websiteName} - ${pageName}` : websiteName;
 };
 
-function App({ Component, pageProps }) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>

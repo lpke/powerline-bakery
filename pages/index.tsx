@@ -3,9 +3,9 @@ import Center from "layouts/BlankCenter";
 const Home = () => (
   <>
     <Center>
-      <h1>LP Dev</h1>
+      <h1>Powerline Bakery</h1>
 
-      <p>Website currently undergoing improvements.</p>
+      <p>Electrifyingly Good.</p>
 
       <style jsx>{`
         //...
