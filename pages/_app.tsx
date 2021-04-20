@@ -15,7 +15,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>{createTitle(pageProps.pageName || Component.name)}</title>{" "}
+        <title>{createTitle(pageProps.pageName)}</title>{" "}
         <link rel="icon" href="/icons/favicons/default-favicon.ico" />
       </Head>
 
